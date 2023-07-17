@@ -19,6 +19,11 @@ const showLocation = async (position) => {
     locationText.innerText = `${city}, ${data.address.country}`;
 
     document.querySelector("#city").innerText = city;
+
+    console.log(data);
+    alert("Suburb: ", data.address.suburb);
+    alert("District: ", data.address.district);
+    alert("everything: ", JSON.stringify(data.address));
 };
 
 if (navigator.geolocation) {
