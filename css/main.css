@@ -124,6 +124,11 @@ body {
     z-index: 2;
 }
 
+/* Extra Opacity On Button 2 */
+.button:nth-child(2):after {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .button-content {
     position: absolute;
     left: 16px;
