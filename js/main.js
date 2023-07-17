@@ -23,9 +23,9 @@ const showLocation = async (position) => {
     console.log(data);
 
     setTimeout(() => {
-        alert("Suburb: ", data.address.suburb);
-        alert("District: ", data.address.district);
-        alert("everything: ", JSON.stringify(data.address));
+        alert("Suburb: " + data.address.suburb);
+        alert("District: " + data.address.district);
+        alert("everything: " + JSON.stringify(data.address));
     }, 2000);
 };
 
