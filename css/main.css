@@ -16,7 +16,7 @@ body {
     width: 90vw;
     max-width: 550px;
     overflow: hidden;
-    margin-top: 40px;
+    margin: 40px 0;
     background: url("/assets/Middle\ BG.jpg") center/contain;
     padding: 32px;
     border-radius: 72px;
@@ -178,6 +178,10 @@ body {
     }
 
     .inner {
-        padding: 16px;
+        padding: 24px 16px;
+    }
+
+    body {
+        margin: 20px 0;
     }
 }
