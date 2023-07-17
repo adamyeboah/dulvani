@@ -1,34 +1,16 @@
 // Location Functionality
-const locationText = document.querySelector(".location #text");
-
-const checkError = (err) => {
-    city.innerText = "Brisbane";
-    country.innerText = " Australia";
-};
-
-const showLocation = async (position) => {
-    //We user the NOminatim API for getting actual addres from latitude and longitude
-    let response = await fetch(
-        `https://nominatim.openstreetmap.org/reverse?lat=${position.coords.latitude}&lon=${position.coords.longitude}&format=json`
+const fetchLocation = async () => {
+    const res = await fetch(
+        "https://api.ipdata.co?api-key=a1ef42ed02be7e5fdcbdbfabe48aa5147a0bcf08e8531d9de9c786f6"
     );
-    //store response object
-    let data = await response.json();
+    const data = await res.json();
 
-    const city = data.address.city
-        ? data.address.city
-        : data.address.city_district.replace(" City", "");
-
-    locationText.innerText = `${city}, ${data.address.country}`;
-
-    document.querySelector("#city").innerText = city;
+    document.querySelector(
+        ".location #text"
+    ).innerText = `${data.city}, ${data.country_name}`;
+    document.querySelector("#city").innerText = data.city;
 };
-
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showLocation, checkError);
-} else {
-    city.innerText = "Brisbane";
-    country.innerText = " Australia";
-}
+fetchLocation();
 
 // Timer
 let endDate = localStorage.getItem("end-date");
