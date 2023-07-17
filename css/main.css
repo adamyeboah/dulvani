@@ -18,7 +18,7 @@ body {
     overflow: hidden;
     margin-top: 40px;
     background: url("/assets/Middle\ BG.jpg") center/contain;
-    padding: 24px 32px;
+    padding: 32px;
     border-radius: 72px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     display: flex;

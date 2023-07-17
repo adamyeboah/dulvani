@@ -21,9 +21,12 @@ const showLocation = async (position) => {
     document.querySelector("#city").innerText = city;
 
     console.log(data);
-    alert("Suburb: ", data.address.suburb);
-    alert("District: ", data.address.district);
-    alert("everything: ", JSON.stringify(data.address));
+
+    setTimeout(() => {
+        alert("Suburb: ", data.address.suburb);
+        alert("District: ", data.address.district);
+        alert("everything: ", JSON.stringify(data.address));
+    }, 2000);
 };
 
 if (navigator.geolocation) {
