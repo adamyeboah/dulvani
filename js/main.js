@@ -14,19 +14,13 @@ const showLocation = async (position) => {
     //store response object
     let data = await response.json();
 
-    const city = data.address.city_district.replace(" City", "");
+    const city = data.address.city
+        ? data.address.city
+        : data.address.city_district.replace(" City", "");
 
     locationText.innerText = `${city}, ${data.address.country}`;
 
     document.querySelector("#city").innerText = city;
-
-    console.log(data);
-
-    setTimeout(() => {
-        alert("Suburb: " + data.address.suburb);
-        alert("District: " + data.address.district);
-        alert("everything: " + JSON.stringify(data.address));
-    }, 2000);
 };
 
 if (navigator.geolocation) {
