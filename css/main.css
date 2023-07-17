@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #040404;
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    width: 90vw;
+    max-width: 550px;
+    overflow: hidden;
+    margin-top: 40px;
+    background: url("/assets/Middle\ BG.jpg") center/contain;
+    padding: 24px 32px;
+    border-radius: 72px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner * {
+    font-family: "Montserrat", sans-serif;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+.profile > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.name {
+    letter-spacing: -0.5px;
+    color: #fff;
+    font-size: 24px;
+    margin: 16px 0 0 0;
+}
+
+.location > span,
+.bio,
+.divider {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.divider {
+    margin: 8px 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 0 0;
+}
+
+.location > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 16px 0;
+}
+
+.button.primary {
+    height: 200px;
+}
+
+.button-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+    transition: 0.4s ease;
+}
+
+.button:hover .button-img {
+    transform: scale(1.175);
+}
+
+.button:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.button-content {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 64px);
+}
+
+.button-content > span {
+    color: #bbb;
+    font-size: 13.5px;
+    margin: 16px 0 0 0;
+    font-weight: 500;
+}
+
+.button-content .big {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: -10px;
+}
+
+.button:last-of-type img {
+    filter: contrast(0.7);
+}
+
+.button-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 3;
+    width: 32px;
+    height: 32px;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .button-content .big {
+        font-size: 18px;
+    }
+
+    .button-content > span {
+        font-size: 12px;
+    }
+
+    .inner {
+        padding: 16px;
+    }
+}
