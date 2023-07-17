@@ -15,7 +15,7 @@ fetchLocation();
 // Timer
 let endDate = localStorage.getItem("end-date");
 
-if (!endDate) {
+if (!endDate || new Date(endDate) - new Date() < 0) {
     endDate = new Date();
 
     const randomHours = Math.floor(Math.random() * (3 - 1 + 1) + 1);
@@ -35,6 +35,7 @@ function updateTimer() {
     future = new Date(endDate);
 
     diff = future - now;
+
     days = Math.floor(diff / (1000 * 60 * 60 * 24));
     hours = Math.floor(diff / (1000 * 60 * 60));
     mins = Math.floor(diff / (1000 * 60));
