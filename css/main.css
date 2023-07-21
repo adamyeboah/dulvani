@@ -91,6 +91,7 @@ body {
     border-radius: 24px;
     overflow: hidden;
     margin: 16px 0;
+    cursor: pointer;
 }
 
 .button.primary {
@@ -107,6 +108,10 @@ body {
     object-position: center;
     z-index: 1;
     transition: 0.4s ease;
+}
+
+.button-img.full-contrast {
+    filter: unset !important;
 }
 
 .button:hover .button-img {
