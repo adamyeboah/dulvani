@@ -195,6 +195,7 @@ body {
     height: 40px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    opacity: 0.8;
 }
 
 .social-icon:hover {
