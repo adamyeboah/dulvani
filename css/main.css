@@ -268,6 +268,7 @@ h2.title {
     margin: 24px 0;
     list-style-type: none;
     row-gap: 20px;
+    min-width: 300px;
 }
 
 .benefits > li {
@@ -293,6 +294,7 @@ h2.title {
     margin: 24px 0;
     list-style-type: none;
     row-gap: 20px;
+    min-width: 300px;
 }
 
 .expectations > li {
@@ -412,5 +414,11 @@ h2.title {
 
     .title {
         font-size: 17px;
+    }
+
+    .expectations > li > p,
+    .benefits > li > p {
+        font-size: 12px;
+        padding-left: 10px;
     }
 }
