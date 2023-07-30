@@ -10,7 +10,8 @@ const fetchLocation = async () => {
     ).innerText = `${data.city}, ${data.country_name}`;
     document.querySelector("#city").innerText = data.city;
 };
-fetchLocation();
+
+if (document.querySelector(".location #text")) fetchLocation();
 
 // Timer
 let endDate = localStorage.getItem("end-date");
@@ -50,4 +51,4 @@ function updateTimer() {
         m < 10 ? "0" + m : m
     }:${s < 10 ? "0" + s : s}`;
 }
-setInterval(updateTimer, 1000);
+if (document.querySelector("#countdown")) setInterval(updateTimer, 1000);
