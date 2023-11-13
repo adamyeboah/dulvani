@@ -3,83 +3,759 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dulvani Models - Home</title>
+        <title>Dulvani Talent - Home</title>
+
         <link rel="stylesheet" href="/css/main.css" />
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+
+        <!-- JQuery -->
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Slick Slider -->
         <link
-            rel="shortcut icon"
-            href="/assets/Logo - ADD DROPSHADOW PLS.png"
-            type="image/x-icon"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+            rel="stylesheet"
         />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+            rel="stylesheet"
+        />
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        ></script>
     </head>
     <body>
-        <div class="inner">
-            <div class="profile">
-                <!-- Profile Image Link-->
-                <img src="/assets/dulvani-logo.png" />
+        <nav class="navbar">
+            <div class="inner">
+                <img
+                    src="/assets/images/Dulvani Talent Logo.png"
+                    class="navbar_logo"
+                />
+                <div class="navbar_list">
+                    <a href="#top">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#results">Results</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#news">News</a>
+                </div>
+                <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">Become a model</a>
+                <div class="mobile-menu-button"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.33331 23.0267V21.6933H26.6666V23.0267H5.33331ZM5.33331 16.6667V15.3333H26.6666V16.6667H5.33331ZM5.33331 10.3067V8.97333H26.6666V10.3067H5.33331Z" fill="#232323"/></svg></div>
             </div>
-            <h1 class="name">Dulvani Models</h1>
-            <div class="divider">-</div>
-            <div class="bio">Making Models Millionaires</div>
-            <div class="location">
-                <img class="icon" src="/assets/Location Pin.png" />
-                <span>Brisbane, Australia</span>
+        </nav>
+        <aside class="mobile-nav" style="display:none">
+                    <a href="#top">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#results">Results</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#news">News</a>
+                <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">Become a model</a>
+        </aside>
+        <header class="header" id="top">
+            <video class="header_video" autoplay loop muted>
+                <source
+                    src="/assets/videos/Header bg video.mp4"
+                    type="video/mp4"
+                />
+            </video>
+            <div class="header_content">
+                <h1 class="header_title">
+                    A <span>Badass</span> Team For Badass OnlyFans
+                    <span>Creators</span>
+                </h1>
+                <p class="header_text">
+                    Stop worrying about what content will sell, where to find
+                    new fans or how to increase your sales... <br />
+                    Leave that up to us, you just make awesome content!
+                </p>
+                <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">Apply Now</a>
             </div>
-            <div class="buttons">
-                <a class="button primary" href="/apply/">
-                    <!-- Exclusive Content Image Below-->
-                    <img src="/assets/become-a-model.jpg" class="button-img" />
-                    <div class="button-content">
-                        <span class="big">Become A Model</span>
-                        <span
-                            >Apply to join brisbane's best full service
-                            management</span
-                        >
-                    </div>
-                    <img src="/assets/Lock Icon.png" class="button-icon" />
-                </a>
-                <h1 class="name" style="">Latest Top Creators</h1>
-                <a class="button" href="/liacuddles/">
-                    <!-- Collab With Me Image -->
-                    <img
-                        src="/assets/liacuddles/collab-pic.jpg"
-                        class="button-img"
-                    />
-                    <div class="button-content">
-                        <span class="big">Secret Lia</span>
-                        <span>19yo college girl addicted to the camera</span>
-                    </div>
-                    <img src="/assets/Model Icon.png" class="button-icon" />
-                </a>
-                <a class="button" href="https://instagram.com/katrinaguava">
-                    <!-- Twitter Background Image -->
-                    <img
-                        src="/assets/katrina-sten1.jpg"
-                        class="button-img full-contrast"
-                    />
-                    <div class="button-content">
-                        <span class="big">Katrina Sten</span>
-                        <span
-                            >Latina fitness & yoga instructor turned
-                            naughty</span
-                        >
-                    </div>
-                    <img src="/assets/Model Icon.png" class="button-icon" />
-                </a>
+        </header>
+        <section class="wild-section">
+            <div class="inner">
+                <div class="wild-section_content">
+                    <h2 class="title">Embrace Your Wild Side</h2>
+                    <p class="text">
+                        Experience true freedom. Make content from anywhere in
+                        the world while we build and monetise your brand across
+                        onlyfans and social media.
+                    </p>
+                    <ul class="icon-group-list">
+                        <li class="icon-group">
+                            <img
+                                src="/assets/icons/Cashbag icon.png"
+                                class="icon-group_icon"
+                            />
+                            We tell you exactly what will go viral and sell
+                        </li>
+                        <li class="icon-group">
+                            <img
+                                src="/assets/icons/Person icon.png"
+                                class="icon-group_icon"
+                            />
+                            Our team handles all promotion and chatting for you
+                        </li>
+                        <li class="icon-group">
+                            <img
+                                src="/assets/icons/Heart icon.png"
+                                class="icon-group_icon"
+                            />
+                            We treat you with 1100% respect and value your ideas
+                        </li>
+                    </ul>
+                    <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">BECOME A MODEL</a>
+                </div>
+                <img
+                    class="wild-section_image"
+                    src="/assets/images/collage header.png"
+                />
             </div>
-            <div class="socials">
-                <a
-                    class="social-icon"
-                    href="https://www.instagram.com/dulvanimodels/"
-                    target="_blank"
-                    ><img src="/assets/instagram.png" alt="Instagram"
-                /></a>
-                <a class="social-icon" href="mailto:dulvanimodels@gmail.com"
-                    ><img src="/assets/email.png" alt="Email"
-                /></a>
-            </div>
-            
+        </section>
 
-        <script src="/js/main.js"></script>
-        <script src="//code.tidio.co/puvpw7s5ganjbsl50d35lyunfjdtgxym.js" async></script>
+        <section class="as-seen-on-section">
+            <div class="inner">
+                <h3 class="title">AS <span>SEEN</span> ON</h3>
+                <div class="logo-grid">
+                    <img
+                        src="/assets/images/Onlyfans.png"
+                        class="as-seen-on_logo"
+                    />
+                    <img src="/assets/images/Fox.png" class="as-seen-on_logo" />
+                    <img
+                        src="/assets/images/Verve.png"
+                        class="as-seen-on_logo"
+                    />
+                    <img
+                        src="/assets/images/Digital Journal.png"
+                        class="as-seen-on_logo"
+                    />
+                    <img
+                        src="/assets/images/Glamour.png"
+                        class="as-seen-on_logo"
+                    />
+                </div>
+                <p class="text">And many more!</p>
+            </div>
+        </section>
+
+        <section class="could-be-you" id="results">
+            <div class="inner">
+                <h2 class="title">Hey, This Could Be You</h2>
+                <div class="image-slider">
+                    <img src="/assets/images/Result 1.JPG" class="image" />
+                    <img src="/assets/images/Result 2.png" class="image" />
+                    <img src="/assets/images/Result 3.png" class="image" />
+                    <img src="/assets/images/Result 4.png" class="image" />
+                    <img src="/assets/images/Result 5.png" class="image" />
+                    <img src="/assets/images/Result 6.png" class="image" />
+                    <img src="/assets/images/Result 7.png" class="image" />
+                    <img src="/assets/images/Result 8.png" class="image" />
+                    <img src="/assets/images/Result 9.png" class="image" />
+                    <img src="/assets/images/Result 10.png" class="image" />
+                    <img src="/assets/images/Result 11.png" class="image" />
+                    <img src="/assets/images/Result 12.jpg" class="image" />
+                </div>
+            </div>
+        </section>
+
+        <section class="what-we-do" id="services">
+            <div class="inner">
+                <div class="head">
+                    <h4 class="subtitle">What Do We Do?</h4>
+                    <h3 class="title">
+                        Meet Your <br />
+                        New Favourite <br />
+                        Onlyfans Team
+                    </h3>
+                    <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">BECOME A MODEL</a>
+                </div>
+                <div
+                    class="card card-1"
+                    style="background-image: url(/assets/images/Service\ 1.png)"
+                >
+                    <div class="card_head">
+                        <span class="card_number">1.</span>
+                        <h5 class="card_title">
+                            New Subs <br />
+                            On Autopilot
+                        </h5>
+                    </div>
+                    <p class="card_content">
+                        Never worry abouit how to find new subscribers for your
+                        onlyfans... <br /><br />
+                        Our team handles your entire marketing strategy!
+                    </p>
+                </div>
+                <div
+                    class="card card-2"
+                    style="background-image: url(/assets/images/Service\ 2.png)"
+                >
+                    <div class="card_head">
+                        <span class="card_number">2.</span>
+                        <h5 class="card_title">
+                            Content <br />
+                            Simplified
+                        </h5>
+                    </div>
+                    <p class="card_content">
+                        We provide examples and tell you exactly what content to
+                        create each week. <br /><br />
+                        No more guessing, making new content has never been
+                        easier!
+                    </p>
+                </div>
+                <div
+                    class="card card-3"
+                    style="background-image: url(/assets/images/Service\ 3.png)"
+                >
+                    <div class="card_head">
+                        <span class="card_number">3.</span>
+                        <h5 class="card_title">
+                            Triple Your <br />
+                            Chatting Sales
+                        </h5>
+                    </div>
+                    <p class="card_content">
+                        Our team of sales ninjas are trained by the very best in
+                        the Industry. <br /><br />
+                        Never worry about sending a lame sext message again!
+                    </p>
+                </div>
+                <div
+                    class="card card-4"
+                    style="background-image: url(/assets/images/Service\ 4.png)"
+                >
+                    <div class="card_head">
+                        <span class="card_number">4.</span>
+                        <h5 class="card_title">
+                            Experience <br />
+                            True Freedom
+                        </h5>
+                    </div>
+                    <p class="card_content">
+                        Live life on your terms. The freedom to create content
+                        from anywhere in the world! <br /><br />
+                        As your earnings grow, so does your lifestyle! It's time
+                        to join the top 1% of creators.
+                    </p>
+                </div>
+                <div
+                    class="card card-5"
+                    style="background-image: url(/assets/images/Service\ 5.png)"
+                >
+                    <div class="card_head">
+                        <span class="card_number">5.</span>
+                        <h5 class="card_title">
+                            Feel Heard <br />
+                            And Respected
+                        </h5>
+                    </div>
+                    <p class="card_content">
+                        We treat you and your brand with complete
+                        professionalism and respect. <br /><br />
+                        Your ideas are valued and you will never be judged for
+                        the content you create.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="inner">
+                <h2 class="title">What <span>Our Creators</span> Are Saying</h2>
+                <div class="divider"></div>
+                <div class="testimonials_slider">
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 1.png"
+                    />
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 2.png"
+                    />
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 1.png"
+                    />
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 2.png"
+                    />
+                </div>
+                <div class="testimonials_mobile-list">
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 1.png"
+                    />
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 2.png"
+                    />
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 1.png"
+                    />
+                    <img
+                        class="testimonials_slider_item"
+                        src="/assets/images/IG Review 2.png"
+                    />
+                </div>
+                <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">APPLY NOW</a>
+            </div>
+        </section>
+
+        <section class="models">
+            <div class="inner">
+                <div class="model">
+                    <img
+                        class="model_image"
+                        src="/assets/images/Ava Grey PNG.png"
+                    />
+                    <div class="model_details">
+                        <h5 class="model_name">
+                            Meet <br />
+                            Ava Grey
+                        </h5>
+                        <div class="model_divider"></div>
+                        <a href="#" class="model_instagram"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_160_266)">
+                                    <path
+                                        d="M16 0C11.658 0 11.112 0.02 9.406 0.096C7.7 0.176 6.538 0.444 5.52 0.84C4.45219 1.24164 3.48498 1.87165 2.686 2.686C1.87215 3.48539 1.24221 4.45248 0.84 5.52C0.444 6.536 0.174 7.7 0.096 9.4C0.02 11.11 0 11.654 0 16.002C0 20.346 0.02 20.89 0.096 22.596C0.176 24.3 0.444 25.462 0.84 26.48C1.25 27.532 1.796 28.424 2.686 29.314C3.574 30.204 4.466 30.752 5.518 31.16C6.538 31.556 7.698 31.826 9.402 31.904C11.11 31.98 11.654 32 16 32C20.346 32 20.888 31.98 22.596 31.904C24.298 31.824 25.464 31.556 26.482 31.16C27.5491 30.7582 28.5156 30.1282 29.314 29.314C30.204 28.424 30.75 27.532 31.16 26.48C31.554 25.462 31.824 24.3 31.904 22.596C31.98 20.89 32 20.346 32 16C32 11.654 31.98 11.11 31.904 9.402C31.824 7.7 31.554 6.536 31.16 5.52C30.7578 4.45245 30.1279 3.48535 29.314 2.686C28.5153 1.87135 27.548 1.24129 26.48 0.84C25.46 0.444 24.296 0.174 22.594 0.096C20.886 0.02 20.344 0 15.996 0H16.002H16ZM14.566 2.884H16.002C20.274 2.884 20.78 2.898 22.466 2.976C24.026 3.046 24.874 3.308 25.438 3.526C26.184 3.816 26.718 4.164 27.278 4.724C27.838 5.284 28.184 5.816 28.474 6.564C28.694 7.126 28.954 7.974 29.024 9.534C29.102 11.22 29.118 11.726 29.118 15.996C29.118 20.266 29.102 20.774 29.024 22.46C28.954 24.02 28.692 24.866 28.474 25.43C28.2175 26.1247 27.8081 26.7529 27.276 27.268C26.716 27.828 26.184 28.174 25.436 28.464C24.876 28.684 24.028 28.944 22.466 29.016C20.78 29.092 20.274 29.11 16.002 29.11C11.73 29.11 11.222 29.092 9.536 29.016C7.976 28.944 7.13 28.684 6.566 28.464C5.871 28.2078 5.24225 27.7992 4.726 27.268C4.1935 26.7521 3.78345 26.1233 3.526 25.428C3.308 24.866 3.046 24.018 2.976 22.458C2.9 20.772 2.884 20.266 2.884 15.992C2.884 11.72 2.9 11.216 2.976 9.53C3.048 7.97 3.308 7.122 3.528 6.558C3.818 5.812 4.166 5.278 4.726 4.718C5.286 4.158 5.818 3.812 6.566 3.522C7.13 3.302 7.976 3.042 9.536 2.97C11.012 2.902 11.584 2.882 14.566 2.88V2.884ZM24.542 5.54C24.2899 5.54 24.0402 5.58966 23.8072 5.68615C23.5743 5.78264 23.3626 5.92407 23.1844 6.10236C23.0061 6.28064 22.8646 6.4923 22.7682 6.72525C22.6717 6.95819 22.622 7.20786 22.622 7.46C22.622 7.71214 22.6717 7.96181 22.7682 8.19475C22.8646 8.4277 23.0061 8.63936 23.1844 8.81765C23.3626 8.99593 23.5743 9.13736 23.8072 9.23385C24.0402 9.33034 24.2899 9.38 24.542 9.38C25.0512 9.38 25.5396 9.17771 25.8996 8.81765C26.2597 8.45758 26.462 7.96922 26.462 7.46C26.462 6.95078 26.2597 6.46242 25.8996 6.10236C25.5396 5.74229 25.0512 5.54 24.542 5.54ZM16.002 7.784C14.9121 7.767 13.8298 7.96697 12.818 8.37228C11.8061 8.77759 10.885 9.38014 10.1083 10.1448C9.33157 10.9096 8.71473 11.8211 8.29368 12.8265C7.87264 13.8319 7.6558 14.911 7.6558 16.001C7.6558 17.091 7.87264 18.1701 8.29368 19.1755C8.71473 20.1809 9.33157 21.0924 10.1083 21.8572C10.885 22.6219 11.8061 23.2244 12.818 23.6297C13.8298 24.035 14.9121 24.235 16.002 24.218C18.1591 24.1843 20.2164 23.3038 21.73 21.7665C23.2435 20.2292 24.0918 18.1583 24.0918 16.001C24.0918 13.8437 23.2435 11.7728 21.73 10.2355C20.2164 8.69817 18.1591 7.81765 16.002 7.784ZM16.002 10.666C17.4167 10.666 18.7734 11.228 19.7737 12.2283C20.774 13.2286 21.336 14.5853 21.336 16C21.336 17.4147 20.774 18.7714 19.7737 19.7717C18.7734 20.772 17.4167 21.334 16.002 21.334C14.5873 21.334 13.2306 20.772 12.2303 19.7717C11.23 18.7714 10.668 17.4147 10.668 16C10.668 14.5853 11.23 13.2286 12.2303 12.2283C13.2306 11.228 14.5873 10.666 16.002 10.666Z"
+                                        fill="#FFA336"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_160_266">
+                                        <rect
+                                            width="32"
+                                            height="32"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            My Instagram</a
+                        >
+                        <a href="#" class="model_content"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M8.00001 29.3335C7.26668 29.3335 6.63868 29.0722 6.11601 28.5495C5.59335 28.0268 5.33246 27.3993 5.33335 26.6668V13.3335C5.33335 12.6002 5.59468 11.9722 6.11735 11.4495C6.64001 10.9268 7.26757 10.6659 8.00001 10.6668H9.33335V8.00016C9.33335 6.15572 9.98357 4.58327 11.284 3.28283C12.5845 1.98239 14.1565 1.33261 16 1.3335C17.8445 1.3335 19.4169 1.98372 20.7173 3.28416C22.0178 4.58461 22.6676 6.15661 22.6667 8.00016V10.6668H24C24.7333 10.6668 25.3613 10.9282 25.884 11.4508C26.4067 11.9735 26.6676 12.6011 26.6667 13.3335V26.6668C26.6667 27.4002 26.4053 28.0282 25.8827 28.5508C25.36 29.0735 24.7325 29.3344 24 29.3335H8.00001ZM8.00001 26.6668H24V13.3335H8.00001V26.6668ZM16 22.6668C16.7333 22.6668 17.3613 22.4055 17.884 21.8828C18.4067 21.3602 18.6676 20.7326 18.6667 20.0002C18.6667 19.2668 18.4053 18.6388 17.8827 18.1162C17.36 17.5935 16.7325 17.3326 16 17.3335C15.2667 17.3335 14.6387 17.5948 14.116 18.1175C13.5933 18.6402 13.3325 19.2677 13.3333 20.0002C13.3333 20.7335 13.5947 21.3615 14.1173 21.8842C14.64 22.4068 15.2676 22.6677 16 22.6668ZM12 10.6668H20V8.00016C20 6.88905 19.6111 5.94461 18.8333 5.16683C18.0556 4.38905 17.1111 4.00016 16 4.00016C14.8889 4.00016 13.9445 4.38905 13.1667 5.16683C12.3889 5.94461 12 6.88905 12 8.00016V10.6668Z"
+                                    fill="#5C7EF5"
+                                />
+                            </svg>
+                            Exclusive Content</a
+                        >
+                    </div>
+                </div>
+                <div class="model">
+                    <img
+                        class="model_image"
+                        src="/assets/images/Alexia Venice.png"
+                    />
+                    <div class="model_details">
+                        <h5 class="model_name">
+                            Meet <br />
+                            Alexia Venice
+                        </h5>
+                        <div class="model_divider"></div>
+                        <a href="#" class="model_instagram"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_160_266)">
+                                    <path
+                                        d="M16 0C11.658 0 11.112 0.02 9.406 0.096C7.7 0.176 6.538 0.444 5.52 0.84C4.45219 1.24164 3.48498 1.87165 2.686 2.686C1.87215 3.48539 1.24221 4.45248 0.84 5.52C0.444 6.536 0.174 7.7 0.096 9.4C0.02 11.11 0 11.654 0 16.002C0 20.346 0.02 20.89 0.096 22.596C0.176 24.3 0.444 25.462 0.84 26.48C1.25 27.532 1.796 28.424 2.686 29.314C3.574 30.204 4.466 30.752 5.518 31.16C6.538 31.556 7.698 31.826 9.402 31.904C11.11 31.98 11.654 32 16 32C20.346 32 20.888 31.98 22.596 31.904C24.298 31.824 25.464 31.556 26.482 31.16C27.5491 30.7582 28.5156 30.1282 29.314 29.314C30.204 28.424 30.75 27.532 31.16 26.48C31.554 25.462 31.824 24.3 31.904 22.596C31.98 20.89 32 20.346 32 16C32 11.654 31.98 11.11 31.904 9.402C31.824 7.7 31.554 6.536 31.16 5.52C30.7578 4.45245 30.1279 3.48535 29.314 2.686C28.5153 1.87135 27.548 1.24129 26.48 0.84C25.46 0.444 24.296 0.174 22.594 0.096C20.886 0.02 20.344 0 15.996 0H16.002H16ZM14.566 2.884H16.002C20.274 2.884 20.78 2.898 22.466 2.976C24.026 3.046 24.874 3.308 25.438 3.526C26.184 3.816 26.718 4.164 27.278 4.724C27.838 5.284 28.184 5.816 28.474 6.564C28.694 7.126 28.954 7.974 29.024 9.534C29.102 11.22 29.118 11.726 29.118 15.996C29.118 20.266 29.102 20.774 29.024 22.46C28.954 24.02 28.692 24.866 28.474 25.43C28.2175 26.1247 27.8081 26.7529 27.276 27.268C26.716 27.828 26.184 28.174 25.436 28.464C24.876 28.684 24.028 28.944 22.466 29.016C20.78 29.092 20.274 29.11 16.002 29.11C11.73 29.11 11.222 29.092 9.536 29.016C7.976 28.944 7.13 28.684 6.566 28.464C5.871 28.2078 5.24225 27.7992 4.726 27.268C4.1935 26.7521 3.78345 26.1233 3.526 25.428C3.308 24.866 3.046 24.018 2.976 22.458C2.9 20.772 2.884 20.266 2.884 15.992C2.884 11.72 2.9 11.216 2.976 9.53C3.048 7.97 3.308 7.122 3.528 6.558C3.818 5.812 4.166 5.278 4.726 4.718C5.286 4.158 5.818 3.812 6.566 3.522C7.13 3.302 7.976 3.042 9.536 2.97C11.012 2.902 11.584 2.882 14.566 2.88V2.884ZM24.542 5.54C24.2899 5.54 24.0402 5.58966 23.8072 5.68615C23.5743 5.78264 23.3626 5.92407 23.1844 6.10236C23.0061 6.28064 22.8646 6.4923 22.7682 6.72525C22.6717 6.95819 22.622 7.20786 22.622 7.46C22.622 7.71214 22.6717 7.96181 22.7682 8.19475C22.8646 8.4277 23.0061 8.63936 23.1844 8.81765C23.3626 8.99593 23.5743 9.13736 23.8072 9.23385C24.0402 9.33034 24.2899 9.38 24.542 9.38C25.0512 9.38 25.5396 9.17771 25.8996 8.81765C26.2597 8.45758 26.462 7.96922 26.462 7.46C26.462 6.95078 26.2597 6.46242 25.8996 6.10236C25.5396 5.74229 25.0512 5.54 24.542 5.54ZM16.002 7.784C14.9121 7.767 13.8298 7.96697 12.818 8.37228C11.8061 8.77759 10.885 9.38014 10.1083 10.1448C9.33157 10.9096 8.71473 11.8211 8.29368 12.8265C7.87264 13.8319 7.6558 14.911 7.6558 16.001C7.6558 17.091 7.87264 18.1701 8.29368 19.1755C8.71473 20.1809 9.33157 21.0924 10.1083 21.8572C10.885 22.6219 11.8061 23.2244 12.818 23.6297C13.8298 24.035 14.9121 24.235 16.002 24.218C18.1591 24.1843 20.2164 23.3038 21.73 21.7665C23.2435 20.2292 24.0918 18.1583 24.0918 16.001C24.0918 13.8437 23.2435 11.7728 21.73 10.2355C20.2164 8.69817 18.1591 7.81765 16.002 7.784ZM16.002 10.666C17.4167 10.666 18.7734 11.228 19.7737 12.2283C20.774 13.2286 21.336 14.5853 21.336 16C21.336 17.4147 20.774 18.7714 19.7737 19.7717C18.7734 20.772 17.4167 21.334 16.002 21.334C14.5873 21.334 13.2306 20.772 12.2303 19.7717C11.23 18.7714 10.668 17.4147 10.668 16C10.668 14.5853 11.23 13.2286 12.2303 12.2283C13.2306 11.228 14.5873 10.666 16.002 10.666Z"
+                                        fill="#FFA336"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_160_266">
+                                        <rect
+                                            width="32"
+                                            height="32"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            My Instagram</a
+                        >
+                        <a href="#" class="model_content"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M8.00001 29.3335C7.26668 29.3335 6.63868 29.0722 6.11601 28.5495C5.59335 28.0268 5.33246 27.3993 5.33335 26.6668V13.3335C5.33335 12.6002 5.59468 11.9722 6.11735 11.4495C6.64001 10.9268 7.26757 10.6659 8.00001 10.6668H9.33335V8.00016C9.33335 6.15572 9.98357 4.58327 11.284 3.28283C12.5845 1.98239 14.1565 1.33261 16 1.3335C17.8445 1.3335 19.4169 1.98372 20.7173 3.28416C22.0178 4.58461 22.6676 6.15661 22.6667 8.00016V10.6668H24C24.7333 10.6668 25.3613 10.9282 25.884 11.4508C26.4067 11.9735 26.6676 12.6011 26.6667 13.3335V26.6668C26.6667 27.4002 26.4053 28.0282 25.8827 28.5508C25.36 29.0735 24.7325 29.3344 24 29.3335H8.00001ZM8.00001 26.6668H24V13.3335H8.00001V26.6668ZM16 22.6668C16.7333 22.6668 17.3613 22.4055 17.884 21.8828C18.4067 21.3602 18.6676 20.7326 18.6667 20.0002C18.6667 19.2668 18.4053 18.6388 17.8827 18.1162C17.36 17.5935 16.7325 17.3326 16 17.3335C15.2667 17.3335 14.6387 17.5948 14.116 18.1175C13.5933 18.6402 13.3325 19.2677 13.3333 20.0002C13.3333 20.7335 13.5947 21.3615 14.1173 21.8842C14.64 22.4068 15.2676 22.6677 16 22.6668ZM12 10.6668H20V8.00016C20 6.88905 19.6111 5.94461 18.8333 5.16683C18.0556 4.38905 17.1111 4.00016 16 4.00016C14.8889 4.00016 13.9445 4.38905 13.1667 5.16683C12.3889 5.94461 12 6.88905 12 8.00016V10.6668Z"
+                                    fill="#5C7EF5"
+                                />
+                            </svg>
+                            Exclusive Content</a
+                        >
+                    </div>
+                </div>
+                <div class="model alternate">
+                    <img
+                        class="model_image"
+                        src="/assets/images/Coco Katrina.png"
+                    />
+                    <div class="model_details">
+                        <h5 class="model_name">
+                            Meet <br />
+                            Coco Katrina
+                        </h5>
+                        <div class="model_divider"></div>
+                        <a href="#" class="model_instagram"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_160_266)">
+                                    <path
+                                        d="M16 0C11.658 0 11.112 0.02 9.406 0.096C7.7 0.176 6.538 0.444 5.52 0.84C4.45219 1.24164 3.48498 1.87165 2.686 2.686C1.87215 3.48539 1.24221 4.45248 0.84 5.52C0.444 6.536 0.174 7.7 0.096 9.4C0.02 11.11 0 11.654 0 16.002C0 20.346 0.02 20.89 0.096 22.596C0.176 24.3 0.444 25.462 0.84 26.48C1.25 27.532 1.796 28.424 2.686 29.314C3.574 30.204 4.466 30.752 5.518 31.16C6.538 31.556 7.698 31.826 9.402 31.904C11.11 31.98 11.654 32 16 32C20.346 32 20.888 31.98 22.596 31.904C24.298 31.824 25.464 31.556 26.482 31.16C27.5491 30.7582 28.5156 30.1282 29.314 29.314C30.204 28.424 30.75 27.532 31.16 26.48C31.554 25.462 31.824 24.3 31.904 22.596C31.98 20.89 32 20.346 32 16C32 11.654 31.98 11.11 31.904 9.402C31.824 7.7 31.554 6.536 31.16 5.52C30.7578 4.45245 30.1279 3.48535 29.314 2.686C28.5153 1.87135 27.548 1.24129 26.48 0.84C25.46 0.444 24.296 0.174 22.594 0.096C20.886 0.02 20.344 0 15.996 0H16.002H16ZM14.566 2.884H16.002C20.274 2.884 20.78 2.898 22.466 2.976C24.026 3.046 24.874 3.308 25.438 3.526C26.184 3.816 26.718 4.164 27.278 4.724C27.838 5.284 28.184 5.816 28.474 6.564C28.694 7.126 28.954 7.974 29.024 9.534C29.102 11.22 29.118 11.726 29.118 15.996C29.118 20.266 29.102 20.774 29.024 22.46C28.954 24.02 28.692 24.866 28.474 25.43C28.2175 26.1247 27.8081 26.7529 27.276 27.268C26.716 27.828 26.184 28.174 25.436 28.464C24.876 28.684 24.028 28.944 22.466 29.016C20.78 29.092 20.274 29.11 16.002 29.11C11.73 29.11 11.222 29.092 9.536 29.016C7.976 28.944 7.13 28.684 6.566 28.464C5.871 28.2078 5.24225 27.7992 4.726 27.268C4.1935 26.7521 3.78345 26.1233 3.526 25.428C3.308 24.866 3.046 24.018 2.976 22.458C2.9 20.772 2.884 20.266 2.884 15.992C2.884 11.72 2.9 11.216 2.976 9.53C3.048 7.97 3.308 7.122 3.528 6.558C3.818 5.812 4.166 5.278 4.726 4.718C5.286 4.158 5.818 3.812 6.566 3.522C7.13 3.302 7.976 3.042 9.536 2.97C11.012 2.902 11.584 2.882 14.566 2.88V2.884ZM24.542 5.54C24.2899 5.54 24.0402 5.58966 23.8072 5.68615C23.5743 5.78264 23.3626 5.92407 23.1844 6.10236C23.0061 6.28064 22.8646 6.4923 22.7682 6.72525C22.6717 6.95819 22.622 7.20786 22.622 7.46C22.622 7.71214 22.6717 7.96181 22.7682 8.19475C22.8646 8.4277 23.0061 8.63936 23.1844 8.81765C23.3626 8.99593 23.5743 9.13736 23.8072 9.23385C24.0402 9.33034 24.2899 9.38 24.542 9.38C25.0512 9.38 25.5396 9.17771 25.8996 8.81765C26.2597 8.45758 26.462 7.96922 26.462 7.46C26.462 6.95078 26.2597 6.46242 25.8996 6.10236C25.5396 5.74229 25.0512 5.54 24.542 5.54ZM16.002 7.784C14.9121 7.767 13.8298 7.96697 12.818 8.37228C11.8061 8.77759 10.885 9.38014 10.1083 10.1448C9.33157 10.9096 8.71473 11.8211 8.29368 12.8265C7.87264 13.8319 7.6558 14.911 7.6558 16.001C7.6558 17.091 7.87264 18.1701 8.29368 19.1755C8.71473 20.1809 9.33157 21.0924 10.1083 21.8572C10.885 22.6219 11.8061 23.2244 12.818 23.6297C13.8298 24.035 14.9121 24.235 16.002 24.218C18.1591 24.1843 20.2164 23.3038 21.73 21.7665C23.2435 20.2292 24.0918 18.1583 24.0918 16.001C24.0918 13.8437 23.2435 11.7728 21.73 10.2355C20.2164 8.69817 18.1591 7.81765 16.002 7.784ZM16.002 10.666C17.4167 10.666 18.7734 11.228 19.7737 12.2283C20.774 13.2286 21.336 14.5853 21.336 16C21.336 17.4147 20.774 18.7714 19.7737 19.7717C18.7734 20.772 17.4167 21.334 16.002 21.334C14.5873 21.334 13.2306 20.772 12.2303 19.7717C11.23 18.7714 10.668 17.4147 10.668 16C10.668 14.5853 11.23 13.2286 12.2303 12.2283C13.2306 11.228 14.5873 10.666 16.002 10.666Z"
+                                        fill="#FFA336"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_160_266">
+                                        <rect
+                                            width="32"
+                                            height="32"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            My Instagram</a
+                        >
+                        <a href="#" class="model_content"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M8.00001 29.3335C7.26668 29.3335 6.63868 29.0722 6.11601 28.5495C5.59335 28.0268 5.33246 27.3993 5.33335 26.6668V13.3335C5.33335 12.6002 5.59468 11.9722 6.11735 11.4495C6.64001 10.9268 7.26757 10.6659 8.00001 10.6668H9.33335V8.00016C9.33335 6.15572 9.98357 4.58327 11.284 3.28283C12.5845 1.98239 14.1565 1.33261 16 1.3335C17.8445 1.3335 19.4169 1.98372 20.7173 3.28416C22.0178 4.58461 22.6676 6.15661 22.6667 8.00016V10.6668H24C24.7333 10.6668 25.3613 10.9282 25.884 11.4508C26.4067 11.9735 26.6676 12.6011 26.6667 13.3335V26.6668C26.6667 27.4002 26.4053 28.0282 25.8827 28.5508C25.36 29.0735 24.7325 29.3344 24 29.3335H8.00001ZM8.00001 26.6668H24V13.3335H8.00001V26.6668ZM16 22.6668C16.7333 22.6668 17.3613 22.4055 17.884 21.8828C18.4067 21.3602 18.6676 20.7326 18.6667 20.0002C18.6667 19.2668 18.4053 18.6388 17.8827 18.1162C17.36 17.5935 16.7325 17.3326 16 17.3335C15.2667 17.3335 14.6387 17.5948 14.116 18.1175C13.5933 18.6402 13.3325 19.2677 13.3333 20.0002C13.3333 20.7335 13.5947 21.3615 14.1173 21.8842C14.64 22.4068 15.2676 22.6677 16 22.6668ZM12 10.6668H20V8.00016C20 6.88905 19.6111 5.94461 18.8333 5.16683C18.0556 4.38905 17.1111 4.00016 16 4.00016C14.8889 4.00016 13.9445 4.38905 13.1667 5.16683C12.3889 5.94461 12 6.88905 12 8.00016V10.6668Z"
+                                    fill="#5C7EF5"
+                                />
+                            </svg>
+                            Exclusive Content</a
+                        >
+                    </div>
+                </div>
+                <div class="model alternate">
+                    <img
+                        class="model_image"
+                        src="/assets/images/Lia cuddles.png"
+                    />
+                    <div class="model_details">
+                        <h5 class="model_name">
+                            Meet <br />
+                            Lia Cuddles
+                        </h5>
+                        <div class="model_divider"></div>
+                        <a href="#" class="model_instagram"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_160_266)">
+                                    <path
+                                        d="M16 0C11.658 0 11.112 0.02 9.406 0.096C7.7 0.176 6.538 0.444 5.52 0.84C4.45219 1.24164 3.48498 1.87165 2.686 2.686C1.87215 3.48539 1.24221 4.45248 0.84 5.52C0.444 6.536 0.174 7.7 0.096 9.4C0.02 11.11 0 11.654 0 16.002C0 20.346 0.02 20.89 0.096 22.596C0.176 24.3 0.444 25.462 0.84 26.48C1.25 27.532 1.796 28.424 2.686 29.314C3.574 30.204 4.466 30.752 5.518 31.16C6.538 31.556 7.698 31.826 9.402 31.904C11.11 31.98 11.654 32 16 32C20.346 32 20.888 31.98 22.596 31.904C24.298 31.824 25.464 31.556 26.482 31.16C27.5491 30.7582 28.5156 30.1282 29.314 29.314C30.204 28.424 30.75 27.532 31.16 26.48C31.554 25.462 31.824 24.3 31.904 22.596C31.98 20.89 32 20.346 32 16C32 11.654 31.98 11.11 31.904 9.402C31.824 7.7 31.554 6.536 31.16 5.52C30.7578 4.45245 30.1279 3.48535 29.314 2.686C28.5153 1.87135 27.548 1.24129 26.48 0.84C25.46 0.444 24.296 0.174 22.594 0.096C20.886 0.02 20.344 0 15.996 0H16.002H16ZM14.566 2.884H16.002C20.274 2.884 20.78 2.898 22.466 2.976C24.026 3.046 24.874 3.308 25.438 3.526C26.184 3.816 26.718 4.164 27.278 4.724C27.838 5.284 28.184 5.816 28.474 6.564C28.694 7.126 28.954 7.974 29.024 9.534C29.102 11.22 29.118 11.726 29.118 15.996C29.118 20.266 29.102 20.774 29.024 22.46C28.954 24.02 28.692 24.866 28.474 25.43C28.2175 26.1247 27.8081 26.7529 27.276 27.268C26.716 27.828 26.184 28.174 25.436 28.464C24.876 28.684 24.028 28.944 22.466 29.016C20.78 29.092 20.274 29.11 16.002 29.11C11.73 29.11 11.222 29.092 9.536 29.016C7.976 28.944 7.13 28.684 6.566 28.464C5.871 28.2078 5.24225 27.7992 4.726 27.268C4.1935 26.7521 3.78345 26.1233 3.526 25.428C3.308 24.866 3.046 24.018 2.976 22.458C2.9 20.772 2.884 20.266 2.884 15.992C2.884 11.72 2.9 11.216 2.976 9.53C3.048 7.97 3.308 7.122 3.528 6.558C3.818 5.812 4.166 5.278 4.726 4.718C5.286 4.158 5.818 3.812 6.566 3.522C7.13 3.302 7.976 3.042 9.536 2.97C11.012 2.902 11.584 2.882 14.566 2.88V2.884ZM24.542 5.54C24.2899 5.54 24.0402 5.58966 23.8072 5.68615C23.5743 5.78264 23.3626 5.92407 23.1844 6.10236C23.0061 6.28064 22.8646 6.4923 22.7682 6.72525C22.6717 6.95819 22.622 7.20786 22.622 7.46C22.622 7.71214 22.6717 7.96181 22.7682 8.19475C22.8646 8.4277 23.0061 8.63936 23.1844 8.81765C23.3626 8.99593 23.5743 9.13736 23.8072 9.23385C24.0402 9.33034 24.2899 9.38 24.542 9.38C25.0512 9.38 25.5396 9.17771 25.8996 8.81765C26.2597 8.45758 26.462 7.96922 26.462 7.46C26.462 6.95078 26.2597 6.46242 25.8996 6.10236C25.5396 5.74229 25.0512 5.54 24.542 5.54ZM16.002 7.784C14.9121 7.767 13.8298 7.96697 12.818 8.37228C11.8061 8.77759 10.885 9.38014 10.1083 10.1448C9.33157 10.9096 8.71473 11.8211 8.29368 12.8265C7.87264 13.8319 7.6558 14.911 7.6558 16.001C7.6558 17.091 7.87264 18.1701 8.29368 19.1755C8.71473 20.1809 9.33157 21.0924 10.1083 21.8572C10.885 22.6219 11.8061 23.2244 12.818 23.6297C13.8298 24.035 14.9121 24.235 16.002 24.218C18.1591 24.1843 20.2164 23.3038 21.73 21.7665C23.2435 20.2292 24.0918 18.1583 24.0918 16.001C24.0918 13.8437 23.2435 11.7728 21.73 10.2355C20.2164 8.69817 18.1591 7.81765 16.002 7.784ZM16.002 10.666C17.4167 10.666 18.7734 11.228 19.7737 12.2283C20.774 13.2286 21.336 14.5853 21.336 16C21.336 17.4147 20.774 18.7714 19.7737 19.7717C18.7734 20.772 17.4167 21.334 16.002 21.334C14.5873 21.334 13.2306 20.772 12.2303 19.7717C11.23 18.7714 10.668 17.4147 10.668 16C10.668 14.5853 11.23 13.2286 12.2303 12.2283C13.2306 11.228 14.5873 10.666 16.002 10.666Z"
+                                        fill="#FFA336"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_160_266">
+                                        <rect
+                                            width="32"
+                                            height="32"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            My Instagram</a
+                        >
+                        <a href="#" class="model_content"
+                            ><svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M8.00001 29.3335C7.26668 29.3335 6.63868 29.0722 6.11601 28.5495C5.59335 28.0268 5.33246 27.3993 5.33335 26.6668V13.3335C5.33335 12.6002 5.59468 11.9722 6.11735 11.4495C6.64001 10.9268 7.26757 10.6659 8.00001 10.6668H9.33335V8.00016C9.33335 6.15572 9.98357 4.58327 11.284 3.28283C12.5845 1.98239 14.1565 1.33261 16 1.3335C17.8445 1.3335 19.4169 1.98372 20.7173 3.28416C22.0178 4.58461 22.6676 6.15661 22.6667 8.00016V10.6668H24C24.7333 10.6668 25.3613 10.9282 25.884 11.4508C26.4067 11.9735 26.6676 12.6011 26.6667 13.3335V26.6668C26.6667 27.4002 26.4053 28.0282 25.8827 28.5508C25.36 29.0735 24.7325 29.3344 24 29.3335H8.00001ZM8.00001 26.6668H24V13.3335H8.00001V26.6668ZM16 22.6668C16.7333 22.6668 17.3613 22.4055 17.884 21.8828C18.4067 21.3602 18.6676 20.7326 18.6667 20.0002C18.6667 19.2668 18.4053 18.6388 17.8827 18.1162C17.36 17.5935 16.7325 17.3326 16 17.3335C15.2667 17.3335 14.6387 17.5948 14.116 18.1175C13.5933 18.6402 13.3325 19.2677 13.3333 20.0002C13.3333 20.7335 13.5947 21.3615 14.1173 21.8842C14.64 22.4068 15.2676 22.6677 16 22.6668ZM12 10.6668H20V8.00016C20 6.88905 19.6111 5.94461 18.8333 5.16683C18.0556 4.38905 17.1111 4.00016 16 4.00016C14.8889 4.00016 13.9445 4.38905 13.1667 5.16683C12.3889 5.94461 12 6.88905 12 8.00016V10.6668Z"
+                                    fill="#5C7EF5"
+                                />
+                            </svg>
+                            Exclusive Content</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news" id="news">
+            <div class="inner">
+                <h3 class="title">
+                    Latest <span>Trending</span> Onlyfans News
+                </h3>
+                <div class="posts">
+                    <article class="post">
+                        <img
+                            src="https://source.unsplash.com/random/200x100"
+                            class="post_img"
+                        />
+                        <p class="post_date">06 NOVEMBER 2023</p>
+                        <h5 class="post_title">
+                            TOP STARS ON ONLYFANS ARE BEING BANNED FOR BREAKING
+                            THIS HIDDEN PLATFORM GUIDELINE
+                        </h5>
+                        <p class="post_excerpt">
+                            Hundreds of top creators on the onlyfan platform are
+                            losing their hard work because of this silly (and
+                            easy to avoid) mistake...
+                        </p>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
+                    </article>
+                    <article class="post">
+                        <img
+                            src="https://source.unsplash.com/random/200x101"
+                            class="post_img"
+                        />
+                        <p class="post_date">25 OCTOBER 2023</p>
+                        <h5 class="post_title">
+                            PORN STAR SKY BRI REVEALS MYSTERY MAN UNITED
+                            FOOTBALLER HAS BEEN DMING HER
+                        </h5>
+                        <p class="post_excerpt">
+                            The 24-year-old American admitted that 'out of
+                            nowhere' she had received messages from this famous
+                            football star...
+                        </p>
+                        <a href="/news/porn-start-sky-bri.html" class="btn btn-primary">READ MORE</a>
+                    </article>
+                    <article class="post">
+                        <img
+                            src="https://source.unsplash.com/random/200x102"
+                            class="post_img"
+                        />
+                        <p class="post_date">05 NOVEMBER 2023</p>
+                        <h5 class="post_title">
+                            ANNIE KNIGHTS DERBY DAY SHAME AFTER BEGGING FOR
+                            INVITE TO BIRD CAGE
+                        </h5>
+                        <p class="post_excerpt">
+                            Annie Knight made headlines last month after she
+                            revealed that she was Australia's most sexually
+                            active women' after confessing to...
+                        </p>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="join">
+            <span class="join_badge">THE BEST DECISION YOU'LL EVER MAKE</span>
+            <h2 class="join_title">
+                Join The <span>Dulvani Talent</span> Family
+            </h2>
+            <div class="join_cvps">
+                <div class="join_cvps-item">
+                    <svg
+                        width="24"
+                        height="26"
+                        viewBox="0 0 24 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle cx="12" cy="13" r="12" fill="#FB486E" />
+                        <path
+                            d="M9.89571 18L5 13.2599L6.22393 12.0748L9.89571 15.6299L17.7761 8L19 9.18503L9.89571 18Z"
+                            fill="white"
+                        />
+                    </svg>
+                    Quick application
+                </div>
+                <div class="join_cvps-item">
+                    <svg
+                        width="24"
+                        height="26"
+                        viewBox="0 0 24 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle cx="12" cy="13" r="12" fill="#FB486E" />
+                        <path
+                            d="M9.89571 18L5 13.2599L6.22393 12.0748L9.89571 15.6299L17.7761 8L19 9.18503L9.89571 18Z"
+                            fill="white"
+                        />
+                    </svg>
+                    Simple onboarding
+                </div>
+                <div class="join_cvps-item">
+                    <svg
+                        width="24"
+                        height="26"
+                        viewBox="0 0 24 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle cx="12" cy="13" r="12" fill="#FB486E" />
+                        <path
+                            d="M9.89571 18L5 13.2599L6.22393 12.0748L9.89571 15.6299L17.7761 8L19 9.18503L9.89571 18Z"
+                            fill="white"
+                        />
+                    </svg>
+                    Create dope content
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary">Become a Model</a>
+        </section>
+
+        <section class="faqs" id="faq">
+            <div class="inner">
+                <h2 class="title">Frequently Asked Questions</h2>
+                <details class="faq">
+                    <summary>
+                        I'm an onlyfans creator, how do you help me?
+                    </summary>
+                    <p class="faq_content">
+                        We make growing on onlyfans simple for creators.<br /><br />We
+                        take away the stress of trying to figure out what
+                        content to make, how to keep fans happy and buying
+                        whilst not burning out entirely. <br /><br />We do this
+                        by promoting your account using up to 7 different
+                        marketing strategies to bring in new fans, while our
+                        sales team optimises your message revenue and monetizes
+                        your brand across all platforms.<br /><br />Helping you
+                        reach $10-25k+ per month in net earnings.
+                    </p>
+                </details>
+                <details class="faq">
+                    <summary>What's the application process look like?</summary>
+                    <p class="faq_content">
+                        We have a quick application process for new talent.<br /><br />After
+                        hitting "apply now", you'll be asked to fill out a short
+                        form and link us your account to have a look at... this
+                        allows us to evaluate whether we'd be able to help you
+                        increase your revenue and grow your online following.<br /><br />If
+                        we think we can help, we'll hop on a quick 10 minute
+                        zoom or IG call to answer any questions you might have
+                        and tell you more about what we do.<br /><br />If
+                        everything sounds good, we'll proceed with onboarding
+                        and get you started as a Dulvani Model.
+                    </p>
+                </details>
+                <details class="faq">
+                    <summary>How long will it take to see results?</summary>
+                    <p class="faq_content">
+                        There is no set formula and every creator's situation is
+                        unique.<br /><br />We aim to help you reach the top 1%
+                        and earn at least $25,000 per month within 6 months of
+                        working together.<br /><br />This is just a rough
+                        estimate, creators growth can be sped up or delayed
+                        depending on work ethic, content quality, account niche,
+                        and a range of other factors.
+                    </p>
+                </details>
+                <details class="faq">
+                    <summary>Do I need to be in Brisbane to apply?</summary>
+                    <p class="faq_content">
+                        Nope!<br /><br />Thanks to iPhones and technology, we're
+                        able to work with creators around the globe.<br /><br />If
+                        you want a one of a kind career and enjoy making
+                        content, you'll love working with Dulvani.
+                    </p>
+                </details>
+                <p class="text">Got a question that wasn't answered? Send us a <a href="#">message</a> on IG</p>
+        </section>
+
+        <footer class="footer">
+            <div class="inner">
+                <img
+                    src="/assets/images/Dulvani Talent Logo.png"
+                    class="footer_logo"
+                />
+                <div class="footer_middle">
+                    <ul class="footer_links">
+                        <li class="footer_link">
+                            <a href="https://tripetto.app/run/HC5MT6FUVY">Become a model</a>
+                            </li>
+                        <li class="footer_link">
+                            <a href="#">Message us</a>
+                            </li>
+                        <li class="footer_link">
+                            <a href="#">Shop dulvani</a>
+                        </li>
+                    </ul>
+                    <p class="footer_text">&copy; 2023 Dulvani Talent, All Rights Reserved.</p>
+                </div>
+                <div class="footer_socials">
+                <a href="#" class="footer_instagram">
+                    <svg
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_160_266)">
+                                    <path
+                                        d="M16 0C11.658 0 11.112 0.02 9.406 0.096C7.7 0.176 6.538 0.444 5.52 0.84C4.45219 1.24164 3.48498 1.87165 2.686 2.686C1.87215 3.48539 1.24221 4.45248 0.84 5.52C0.444 6.536 0.174 7.7 0.096 9.4C0.02 11.11 0 11.654 0 16.002C0 20.346 0.02 20.89 0.096 22.596C0.176 24.3 0.444 25.462 0.84 26.48C1.25 27.532 1.796 28.424 2.686 29.314C3.574 30.204 4.466 30.752 5.518 31.16C6.538 31.556 7.698 31.826 9.402 31.904C11.11 31.98 11.654 32 16 32C20.346 32 20.888 31.98 22.596 31.904C24.298 31.824 25.464 31.556 26.482 31.16C27.5491 30.7582 28.5156 30.1282 29.314 29.314C30.204 28.424 30.75 27.532 31.16 26.48C31.554 25.462 31.824 24.3 31.904 22.596C31.98 20.89 32 20.346 32 16C32 11.654 31.98 11.11 31.904 9.402C31.824 7.7 31.554 6.536 31.16 5.52C30.7578 4.45245 30.1279 3.48535 29.314 2.686C28.5153 1.87135 27.548 1.24129 26.48 0.84C25.46 0.444 24.296 0.174 22.594 0.096C20.886 0.02 20.344 0 15.996 0H16.002H16ZM14.566 2.884H16.002C20.274 2.884 20.78 2.898 22.466 2.976C24.026 3.046 24.874 3.308 25.438 3.526C26.184 3.816 26.718 4.164 27.278 4.724C27.838 5.284 28.184 5.816 28.474 6.564C28.694 7.126 28.954 7.974 29.024 9.534C29.102 11.22 29.118 11.726 29.118 15.996C29.118 20.266 29.102 20.774 29.024 22.46C28.954 24.02 28.692 24.866 28.474 25.43C28.2175 26.1247 27.8081 26.7529 27.276 27.268C26.716 27.828 26.184 28.174 25.436 28.464C24.876 28.684 24.028 28.944 22.466 29.016C20.78 29.092 20.274 29.11 16.002 29.11C11.73 29.11 11.222 29.092 9.536 29.016C7.976 28.944 7.13 28.684 6.566 28.464C5.871 28.2078 5.24225 27.7992 4.726 27.268C4.1935 26.7521 3.78345 26.1233 3.526 25.428C3.308 24.866 3.046 24.018 2.976 22.458C2.9 20.772 2.884 20.266 2.884 15.992C2.884 11.72 2.9 11.216 2.976 9.53C3.048 7.97 3.308 7.122 3.528 6.558C3.818 5.812 4.166 5.278 4.726 4.718C5.286 4.158 5.818 3.812 6.566 3.522C7.13 3.302 7.976 3.042 9.536 2.97C11.012 2.902 11.584 2.882 14.566 2.88V2.884ZM24.542 5.54C24.2899 5.54 24.0402 5.58966 23.8072 5.68615C23.5743 5.78264 23.3626 5.92407 23.1844 6.10236C23.0061 6.28064 22.8646 6.4923 22.7682 6.72525C22.6717 6.95819 22.622 7.20786 22.622 7.46C22.622 7.71214 22.6717 7.96181 22.7682 8.19475C22.8646 8.4277 23.0061 8.63936 23.1844 8.81765C23.3626 8.99593 23.5743 9.13736 23.8072 9.23385C24.0402 9.33034 24.2899 9.38 24.542 9.38C25.0512 9.38 25.5396 9.17771 25.8996 8.81765C26.2597 8.45758 26.462 7.96922 26.462 7.46C26.462 6.95078 26.2597 6.46242 25.8996 6.10236C25.5396 5.74229 25.0512 5.54 24.542 5.54ZM16.002 7.784C14.9121 7.767 13.8298 7.96697 12.818 8.37228C11.8061 8.77759 10.885 9.38014 10.1083 10.1448C9.33157 10.9096 8.71473 11.8211 8.29368 12.8265C7.87264 13.8319 7.6558 14.911 7.6558 16.001C7.6558 17.091 7.87264 18.1701 8.29368 19.1755C8.71473 20.1809 9.33157 21.0924 10.1083 21.8572C10.885 22.6219 11.8061 23.2244 12.818 23.6297C13.8298 24.035 14.9121 24.235 16.002 24.218C18.1591 24.1843 20.2164 23.3038 21.73 21.7665C23.2435 20.2292 24.0918 18.1583 24.0918 16.001C24.0918 13.8437 23.2435 11.7728 21.73 10.2355C20.2164 8.69817 18.1591 7.81765 16.002 7.784ZM16.002 10.666C17.4167 10.666 18.7734 11.228 19.7737 12.2283C20.774 13.2286 21.336 14.5853 21.336 16C21.336 17.4147 20.774 18.7714 19.7737 19.7717C18.7734 20.772 17.4167 21.334 16.002 21.334C14.5873 21.334 13.2306 20.772 12.2303 19.7717C11.23 18.7714 10.668 17.4147 10.668 16C10.668 14.5853 11.23 13.2286 12.2303 12.2283C13.2306 11.228 14.5873 10.666 16.002 10.666Z"
+                                        fill="#232323"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_160_266">
+                                        <rect
+                                            width="32"
+                                            height="32"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                </a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="/js/main.js"></script>
     </body>
 </html>
