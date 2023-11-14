@@ -386,6 +386,7 @@ body {
 
             .slick-dots {
                 width: calc(100vw - 120px);
+                max-width: 1280px;
             }
 
             .slick-dots li {
@@ -860,8 +861,13 @@ body {
 // Blog
 .blog {
     margin: 150px auto;
-    max-width: 1280px;
+    max-width: 1080px;
     padding: 0 24px;
+
+    &_image {
+        width: 100%;
+        margin: 0 auto 50px 0;
+    }
 
     &_title {
         font-family: "Open Sans", sans-serif;
