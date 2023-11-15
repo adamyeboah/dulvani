@@ -278,8 +278,10 @@ body {
     &_image {
         width: 450px;
         height: fit-content;
+
         @media screen and (max-width: 870px) {
             max-width: 100%;
+            max-height: 92vw;
         }
     }
 }
@@ -337,6 +339,8 @@ body {
 
                 @media screen and (max-width: 500px) {
                     height: 35px;
+                    min-width: 80px;
+                    max-width: 35vw;
                 }
             }
         }
@@ -616,6 +620,10 @@ body {
 
             &::-webkit-scrollbar {
                 display: none;
+            }
+
+            img {
+                max-height: 100vw;
             }
         }
     }
