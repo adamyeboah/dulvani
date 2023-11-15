@@ -56,12 +56,15 @@
                 <a href="https://tripetto.app/run/HC5MT6FUVY" class="btn btn-primary">Become a model</a>
         </aside>
         <header class="header" id="top">
-            <video class="header_video" autoplay loop muted>
+            <video class="header_video" autoplay loop muted id="vid" type="video/mp4">
                 <source
                     src="/assets/videos/Header bg video.mp4"
                     type="video/mp4"
                 />
             </video>
+            <script>
+                document.getElementById('vid').play();
+            </script>
             <div class="header_content">
                 <h1 class="header_title">
                     A <span>Badass</span> Team For Badass OnlyFans
